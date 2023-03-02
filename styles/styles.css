@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/ptsans-400.woff2) format(woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/ptsans-700.woff2) format(woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  line-height: 21px;
+  color: #000000;
+}
+
+.page-header {
+  color: #000000;
+  background: #f2f2f2;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.about {
+  background-image: url("../images/mountains-sedona.jpg");
+  background-repeat: no-repeat;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.button {
+  color: #f2f2f2;
+  background: #756157;
+}
+
+.greeting-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.greeting-reasons {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.background-advantages {
+  color: #ffffff;
+  background: #82b3d3;
+}
+
+.come-to-sedona {
+  text-align: center;
+}
+
+.come-to-sedona-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.come-to-sedona-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe {
+  background-image: url(../images/mountains-subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.field {
+  font-size: 18px;
+  line-height: 24px;
+  background: #f2f2f2;
+}
+
+.apportment-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #82b3d3;
+  border: none;
+}
+
+.footer-contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Стили для каталога*/
+
+.catalog-products-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.control-input {
+  line-height: 23px;
+}
+
+.button-hotel-reset {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-hotel-submit {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.cost-title {
+  color: #000000;
+  background: #ffffff;
+}
+
+.hotel-catalog-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.hotel-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.button-hotel-item-more {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-hotel-item-favorite {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #82b3d3;
+}
+
+.button-hotel-item-favorite-add {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #7db54f;
+}
+
+.hotel-raiting {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  background: #f2f2f2;
+}
+
+.hotel-item-description,
+.hotel-item-price,
+.hotel-catalog-sort {
+  color: #333333;
+}
+
+.pagination-link-add {
+  color: #000000;
+  background: #f2f2f2;
+  text-decoration: none;
+}
+
+.pagination-link-none {
+  color: #000000;
+  text-decoration: none;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background: #82b3d3;
+  text-decoration: none;
+}
+
+.pagination {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.catalog-products {
+  background-image: url(../images/mountains-motel.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
